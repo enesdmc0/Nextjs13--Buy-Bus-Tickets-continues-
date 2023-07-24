@@ -30,7 +30,9 @@ model Bus {
   companyName   String
   departureCity String
   arrivalCity   String
-  travelHistory DateTime
+  travelHistory String
+  travelTime    String
+  travelStartTime String
   capacity      Int
   price         Int
   createdAt     DateTime @default(now())
