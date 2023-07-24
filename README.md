@@ -1,34 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div style="display:flex; align-items:center; justify-content:center; flex-direction:column; gap:10px">
+    <h2>
+        NextJs v13 Buy Bus Tickets
+    </h2>
+</div>
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+```
+You can sign up for our website as a member if you'd like. 
+To log in without registering, you can use the following credentials: 
+Mail: enesdmc@gmail.com
+Password: enesdmc
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
+npx prisma studio
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can access the active users and travel journeys using the provided code.
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+```
+At the beginning, all journeys are listed on the homepage.
+You can access journeys on suitable dates through the search box.
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### The available journeys
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+Ankara - Antalya 2023-07-22
+Adana - Ankara 2023-07-23
+Antalya - Istanbul 2023-07-25
+Muğla - Istanbul 2023-07-26
+```
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## Build
+
+- [ ] Nextjs v13
+
+- [ ] Typescript
+
+- [ ] Tailwindcss
+
+- [ ] Prisma
+
+- [ ] Next-Auth
+
+  
+
+```react
+npm run dev
+
+npm run build && npm start
+```
+
+
+
+## Contact
+
+[**Twitter - enesdmc00**][twitter]
+
+[**Email - enesdmcc@gmail.com**][mail]
+
+[**Linkedin - enesdemirci1**][linkedin]
+
+
+
+
+
+[mail]: enesdmcc@gmail.com
+[twitter]: https://twitter.com/enesdmc00
+[linkedin]: inkedin.com/in/enesdemirci1
+[projectLink]: https://github.com/enesdmc0/Nextjs-v13-Tesla-clone-
+
+
+
