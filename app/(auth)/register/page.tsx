@@ -36,8 +36,8 @@ const Register = () => {
                 router.push("/login")
                 toast.success("Kayıt başarılı")
             })
-            .catch(() => {
-                toast.error("Kayıt başarısız")
+            .catch((error) => {
+                console.log(error)
             })
     }
 
