@@ -9,11 +9,11 @@ export default async function getExpeditions(id: any) {
 
         if (!id) return null
 
-        const intId = parseInt(id)
+    
 
         const expedition = await prisma?.bus.findUnique({
             where: {
-                id: intId
+                id: id
             }
         })
 
