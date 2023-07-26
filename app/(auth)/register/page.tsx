@@ -80,7 +80,7 @@ const Register = () => {
                                    required
                                    errors={errors?.telephone}/>
                             {/*password*/}
-                            <Input label="Password" name="password" register={register} type="text" id="password"
+                            <Input label="Password" name="password" register={register} type="password" id="password"
                                      required errors={errors?.password}/>
 
                             <div className="col-span-6 sm:flex sm:items-center sm:gap-4">

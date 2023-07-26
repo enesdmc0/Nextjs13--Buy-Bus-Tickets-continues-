@@ -50,7 +50,7 @@ const Login = () => {
                             <Input label="Email" name="email" register={register} type="text" id="email" required
                                    fullWidth errors={errors?.email}/>
                             {/*password*/}
-                            <Input label="Password" name="password" register={register} type="text" id="password"
+                            <Input label="Password" name="password" register={register} type="password" id="password"
                                    required fullWidth errors={errors?.password}/>
 
 
