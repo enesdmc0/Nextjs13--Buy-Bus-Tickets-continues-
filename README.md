@@ -1,8 +1,5 @@
 <div style="display:flex; align-items:center; justify-content:center; flex-direction:column; gap:10px">
-<<<<<<< HEAD
-=======
     <img style="width:100px; height:100px; object-fit:cover;" src="./images/logo.png"/>
->>>>>>> 81393e1 (prisma generate)
     <h2>
         NextJs v13 Buy Bus Tickets
     </h2>
